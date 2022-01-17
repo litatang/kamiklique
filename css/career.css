@@ -1,0 +1,92 @@
+.career-container {
+    /* padding-top: 18em; */
+    background-image: url("../images/bg-career.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 5em;
+    z-index: 2;
+    /* height: 150vh */
+}
+
+.career-divider {
+    display: block; 
+    height: 10px;
+    margin-top: 0;
+    margin-left: 1em;
+    background-image: linear-gradient(to left, #80D0E5 0%,  #2e4880 100%);
+    padding: 1px;
+}
+
+.career-hero {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.career-text {
+    /* width: 60%; */
+    margin: auto;
+}
+
+.accordion-button{
+    color: #233A76;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.accordion-button::after {
+    background-image: url("../images/plus.png");
+    transform: scale(.7) !important;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../images/minus.png");
+}
+
+.accordion-button:not(.collapsed){
+    color: #233A76;
+    font-weight: bold;
+    background-color: transparent;
+    /* border-color: none; */
+}
+.accordion-flush .accordion-item {    
+    border: 0;
+    background-color: transparent !important;
+}
+
+.accordion-header, .accordion-button{
+    background-color: transparent;
+}
+
+.accordion-button:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.career-list-header {
+    font-weight: bold;
+    font-family: 'Lato', sans-serif !important;
+    color: #233A76;
+    background-color:transparent;
+}
+
+.career-list {
+    background-color:transparent;
+}
+
+.career-accordion-container{
+    padding-bottom: 15em !important;
+}
+
+@media (min-width: 1900px) {
+
+    .client-desc-container{
+        padding-right: 6em;
+    }
+    .career-hero{
+        height: 80%;
+    }
+    .career-accordion-container{
+        max-width: 1780px;
+    }
+}

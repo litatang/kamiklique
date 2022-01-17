@@ -1,0 +1,147 @@
+.client-container {
+
+    background-image: url("../images/bg-client.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 5em;
+    z-index: 2;
+    /* height: 150vh */
+}
+.client-desc-container{
+    padding-right: 4em;
+    display: flex;
+    justify-content: end;
+    text-align: right;
+}
+
+
+.client-desc-text{
+    width: 60vw;
+}
+
+.client-desc-header{    
+    max-width: 50vw;
+    margin-top: 3em;
+}
+
+.clients-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.clients-gallery{
+    margin-top: 8em;
+}
+
+.clients-gallery:hover{
+    cursor: grab;
+}
+
+.clients-logo-container{
+    margin-bottom: 13em;
+}
+
+
+.client_1:hover{content: url('../images/client_1.png') !important;}
+.client_2:hover{content: url('../images/client_2.png') !important;}
+.client_3:hover{content: url('../images/client_3.png') !important;}
+.client_4:hover{content: url('../images/client_4.png') !important;}
+.client_5:hover{content: url('../images/client_5.png') !important;}
+.migo:hover{content: url('../images/client/migo.png'); transform: scale(1.1);}
+.bridges:hover{content: url('../images/client/bridges.png'); transform: scale(1.1);}
+.sgu:hover{content: url('../images/client/sgu.png'); transform: scale(1.1);}
+.keeppack:hover{content: url('../images/client/keeppack.png'); transform: scale(1.1);}
+.revival:hover{content: url('../images/client/revival.png'); transform: scale(1.1);}
+.gordi:hover{content: url('../images/client/gordi.png'); transform: scale(1.1);}
+.digitalskola:hover{content: url('../images/client/digitalskola.png'); transform: scale(1.1);}
+.okegarden:hover{content: url('../images/client/okegarden.png'); transform: scale(1.1);}
+.roketin:hover{content: url('../images/client/roketin.png'); transform: scale(1.1);}
+.maximum:hover{content: url('../images/client/maximum.png'); transform: scale(1.1);}
+.skilvul:hover{content: url('../images/client/skilvul.png'); transform: scale(1.1);}
+.mangkokku:hover{content: url('../images/client/mangkokku.png'); transform: scale(1.1);}
+.tujju:hover{content: url('../images/client/tujju.png'); transform: scale(1.1);}
+.blocksphere:hover{content: url('../images/client/blocksphere.png'); transform: scale(1.1);}
+.sagensie:hover{content: url('../images/client/sagensie.png'); transform: scale(1.1);}
+.adxasia:hover{content: url('../images/client/adxasia.png'); transform: scale(1.1);}
+.kasual:hover{content: url('../images/client/kasual.png'); transform: scale(1.1);}
+.codemi:hover{content: url('../images/client/codemi.png'); transform: scale(1.1);}
+
+
+@media screen and (max-width: 575.98px) {
+    .client-desc-container{
+        padding-right: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .clients-image{
+        /* display: block; */
+        display: flex;
+        align-items: center;
+
+        /* object-fit: cover; */
+    }
+
+    .clients-logo-container{
+        padding: 0 3.5em;
+    }
+
+    .client-desc-header{
+        max-width: 80vw;
+    }
+
+    .clients-gallery {
+        margin-top: 4em;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    .clients-logo-container{
+        padding: 0 3.5em;
+    }
+
+    .client-desc-header{
+        max-width: 80vw;
+    }
+
+    .clients-gallery {
+        margin-top: 4em;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+
+    .client-desc-header{
+        max-width: 60vw;
+    }
+
+    .clients-gallery {
+        margin-top: 7em;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1399px) {
+
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+    .clients-logo-container{
+        max-width: 1200px;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1899px) {
+    .clients-logo-container{
+        max-width: 1350px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .clients-logo-container{
+        max-width: 1780px;
+    }
+}

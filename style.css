@@ -1,0 +1,83 @@
+/*
+Theme Name: Kami Klique
+Author: The Blob Studio
+Version: 1.0
+Description: Customized Theme for Kami Klique
+Tags: responsive, fancy
+Author URI: https://instagram.com/theblobstudio
+*/
+
+body {
+    font-family: sans-serif;
+}
+#container {
+    max-width: 700px;
+    margin: 50px auto;
+    border: 2px solid #ccc;
+}
+
+#site-header {
+    padding: 30px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+#site-title { 
+    padding: 0;
+    margin: 0;
+}
+
+#site-title a {
+    margin: 0;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 0;
+    text-decoration: none;
+}
+#primary-navigation {
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+}
+
+#primary-navigation  ul{
+    list-style: none;
+}
+
+#primary-navigation  ul li {
+    display: inline-block;
+}
+
+#primary-navigation  ul li a {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+}
+
+#primary-navigation  ul li a:hover {
+    background-color: #555;
+}
+
+#site-content {
+    padding: 30px;
+    border-bottom: 2px solid #ccc;
+}
+
+#site-footer {
+    padding: 30px;
+    text-align: center;
+}
+
+.pagination {
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+}
+
+.pagination .next, .pagination .prev {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+}

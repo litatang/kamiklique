@@ -1,0 +1,129 @@
+.about-container{
+    background-image: url("../images/bg-about.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden !important;
+    z-index: 2;
+}
+
+.about-hero{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+.team-photo-container{
+    margin-left: 5em;
+    margin-bottom: 15em;
+}
+
+
+
+.hue-filter{
+    filter: url(#blue-wash);
+    object-fit: cover;
+    width: 100%;
+}
+
+.hue-filter:hover{
+    filter: none;
+}
+
+
+.about-info{
+    display: flex;
+    align-items: center;
+    margin-left: 3em;
+}
+
+.about-section{
+    margin: 8em 0 10em !important;
+}
+
+.top-about-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: end;
+}
+
+.top-about{
+    width: 52%;        
+    justify-content: center !important;    
+    position: absolute;
+    right: 10%;
+}
+
+
+.bottom-about-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.bottom-about{
+    width: 60%;        
+    justify-content: center !important;    
+    position: absolute;
+    left: 10%;
+}
+
+
+@media screen and (max-width: 575.98px) {
+    .about-hero{
+        width: 85%;
+    }
+    .team-photo-container{
+        margin: 0;
+        text-align: center;
+    }
+
+    .about-info{
+        margin-left: 0;
+    }
+
+    .about-info-content{
+        padding: 1em;
+        margin: 5em 0 10em;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .about-hero{
+        height: 80%;
+    }
+}
+
+
+
+/* VALUES PAGE */
+
+.values-container{
+    margin-bottom: 15em !important;
+}
+
+.values-wrapper{
+    border: double 1em transparent;
+    border-radius: 40px;
+    background-image: linear-gradient(white, white), 
+                        linear-gradient(270.74deg, #80D0E5 -5.46%, #3E61AC 96.76%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-width: 2px;
+    position: relative;
+
+}
+.values-content{
+    margin-top: -40%;
+    padding: 3em 2em;
+}
+
+.values-title{
+    background: #fff;
+}

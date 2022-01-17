@@ -1,0 +1,259 @@
+
+.footer-contact{
+    text-decoration: none;
+}
+
+.footer-contact:hover{
+    font-weight: 600;
+}
+
+.footer-text{
+    font-size: 0.85rem;
+}
+
+.footer-section{
+    background-image: url("../images/footer4.png");
+    background-size: cover; 
+    background-color: transparent !important;
+    height: auto;
+    overflow: hidden;
+    background-position: top left;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+    object-fit: contain;
+    width: 100%;
+    margin-top: -8em;
+    padding-bottom: 2em;
+}
+
+.footer-container{
+    position: relative;
+    top: 24.5%;
+    left: 5%;
+    background-color: transparent !important;
+}
+
+.footer-content {
+    background-color: transparent !important;
+    margin-top: 6em;
+    display: flex;
+}
+
+.footer-address{
+    order: 1;
+}
+
+
+.footer-menu{
+    padding-left: 4em;
+    order: 2;
+}
+
+.navbar-nav-footer{
+    flex-direction: column;
+}
+
+
+.footer-menu-nav{
+    padding-top: 15em;
+}
+
+.footer-menu-nav ul li a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #fff !important;
+    text-transform: uppercase;
+    padding: 0.6em;
+    z-index: 4;
+    letter-spacing: 0.5px;
+}
+
+.footer-menu-nav ul li a:hover{
+    font-weight: 600;    
+}
+
+.footer-copyright{
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   padding-right: 2em;
+}
+
+.flex-break{
+    display: none;
+}
+
+.footer-lineheight{
+    line-height: 7px;
+}
+
+.footer-number{
+    pointer-events: none;
+}
+
+.footer-number a {
+    text-decoration:none;
+    color: inherit;
+}
+
+@media screen and (max-width: 575.98px){
+    .footer-lineheight{
+        line-height: normal;
+    }
+    .footer-container{
+        left:0;
+        margin-bottom: 2em;
+        
+    }
+
+    .footer-content{
+        display: flex;
+        justify-content: space-evenly;
+
+        
+    }
+    .footer-address{
+        order: 1;
+        /* margin: auto; */
+        margin-left: 2em;
+        text-align: start;
+        height: auto;
+    }    
+    
+    .footer-menu{
+        height: 20vh;
+        order: 2;
+        padding-left: 0;
+        margin-bottom: 1em;
+    }
+
+    /* .flex-break{
+        order: 2;
+        display: block;
+        width: 100%;
+        height: 0;
+    } */
+
+    .navbar-nav-footer{
+        display: flex;
+        /* flex-wrap: wrap;
+        flex-direction: row; */
+        text-align: start;
+        padding-left: 0;
+    }
+
+    .navbar-nav-footer li{
+        /* flex: 0 0 50%; */
+    }
+
+    .footer-text {
+        font-size: 1rem;
+    }
+    
+}
+@media screen and (max-width: 767px) {
+
+    .footer-menu-nav{
+        padding-top: 0 !important;
+    }
+
+    .footer-copyright{
+
+        /* padding: 0 1em;
+        text-align: center; */
+    }
+    
+    .footer-container{
+        position: relative;
+        /* margin-bottom: 2em; */
+        top: 27%;
+        /* left: 7%; */
+    }
+
+    .footer-copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        padding: 0;
+        margin: 0 0.5em;
+        text-align: center;
+
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+    .footer-lineheight{
+        line-height: 15px;
+    }
+
+    .footer-menu-nav ul li a span{
+        font-size: 1.2rem;
+    }
+
+    .footer-text{
+        font-size: 1rem;
+    }
+
+    .footer-content{
+        margin-top: 8em;
+    }
+}
+
+
+
+@media screen and (min-width: 1600px) and (max-width: 1899px) {
+    .footer-logo{
+        margin-bottom: 3rem !important;
+        margin-left: 5em;
+        transform: scale(1.8) !important;
+    }
+    .footer-menu-nav ul li a span{
+        font-size: 1.5rem;
+    }
+
+    .footer-menu-nav{
+        padding-top: 12em;
+    }
+
+    .footer-content{
+        margin-top: 12em;
+    }
+
+    .footer-lineheight{
+        line-height: 27px;
+    }
+
+    .footer-text{
+        font-size: 1.75rem;
+    }
+}
+
+
+@media screen and (min-width: 1900px) {
+    .footer-logo{
+        margin-bottom: 3rem !important;
+        margin-left: 5em;
+        transform: scale(1.8) !important;
+    }
+    .footer-menu-nav ul li a span{
+        font-size: 1.5rem;
+    }
+
+    .footer-menu-nav{
+        padding-top: 10em;
+    }
+
+    .footer-content{
+        margin-top: 12em;
+    }
+
+    .footer-lineheight{
+        line-height: 27px;
+    }
+
+    .footer-text{
+        font-size: 1.75rem;
+    }
+}

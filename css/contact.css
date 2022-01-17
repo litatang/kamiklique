@@ -1,0 +1,206 @@
+
+
+
+.wpforms-field-container{
+    padding: 6% 6% 2% 6% !important;
+}
+
+.wpforms-field-small, .wpforms-field-medium, .wpforms-field-large {
+    border: none !important;
+    border-bottom: 2px solid #233A76 !important;
+    border-image: linear-gradient(270.74deg, #80D0E5 -5.46%, #3E61AC 96.76%) !important;
+    border-image-slice: 1 !important;
+    margin-top: 0.5em !important;
+    resize: none !important;
+}
+
+.wpforms-field-large::-webkit-outer-spin-button,
+.wpforms-field-large::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.wpforms-field-large {
+    -moz-appearance: textfield;
+}
+
+.wpforms-field{
+    margin-bottom: 1em !important;
+}
+
+.wpforms-field-label{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400 !important;
+    color:#7F8080;
+}
+
+.wpforms-required-label{
+    color: #fff !important;
+}
+
+.wpforms-submit-container{
+    text-align: right;
+    padding: 0 5%!important;
+}
+
+.wpforms-submit {
+    background-image:  linear-gradient(270.74deg, #80D0E5 -65.46%, #233A76 96.76%) !important;
+    color: #fff !important;
+	border-radius: 0.5em  !important;
+	display: block  !important;
+	height: 3em !important;
+	text-transform: uppercase !important;
+	width: 10em !important;
+    margin-top: 1em !important;
+    margin-bottom: 2em !important;
+    box-shadow: 0 10px 20px rgb(62, 97, 172, 0.2) !important;
+    display: inline-block !important;    
+}
+
+.wpforms-container-full{
+    margin-bottom: 0 !important;
+}
+
+div.wpforms-confirmation-container-full, .wpforms-confirmation-container-full{
+    background-color: transparent !important;
+    border: none !important;
+    margin: auto  !important;
+    padding: 4em 3em !important
+}
+
+.contactus-container{
+    background-image: url("../images/bg-contacts.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom: 5em;
+    margin-bottom: 5em;
+    overflow-x: hidden;   
+}
+
+.col-contactform{
+    display: flex;
+    justify-content: end;
+}
+
+.contactform-container {
+    width: 85%;
+    background-color: #fff;      
+    border: double 1em transparent;
+    border-radius: 55px;
+    background-image: linear-gradient(white, white), 
+                       linear-gradient(270.74deg, #80D0E5 -5.46%, #3E61AC 96.76%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-width: 2px;
+    margin-bottom: 2em;
+}
+
+.contactrow{
+    padding-top: 1em !important;
+    height: 95%;
+    margin-bottom: 10em;
+}
+
+.contactus-info-container{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 4em;
+}
+
+.contactus-info{
+    width: 100%;
+}
+
+.contactus-img {
+    object-fit: cover; 
+    width: 100%;     
+}
+
+.contactus-info-content{
+    width: 80%;
+}
+
+.contact-team-photo{
+    border-radius: 20px;
+    max-width: 75%;
+    top: 0;
+}
+
+
+@media screen and (max-width: 575.98px)  {
+
+    .contact-team-photo{
+        display: none;
+    }
+    .col-contactform{
+        justify-content: center !important;
+        margin-top: 3em;
+    }
+
+    .contactus-info-container{
+        margin-left: 2em !important;
+        width: 85%;
+    }
+
+    .wpforms-field-container{
+        padding: 13% 8% 3% 10% !important;
+    }
+
+    .contactus-info-content{
+        width: 100% !important;
+    }
+
+    .wpforms-submit-container{
+        text-align: center;
+    }
+
+    .contactus-info-desc{
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .contact-team-photo{
+        display: none;
+    }
+    .col-contactform{
+        justify-content: center;
+        margin-top: 3em;
+    }
+
+    .contactus-info-container{
+        margin-left: 4em !important;
+        width: 85%;
+    }
+
+    .wpforms-submit-container{
+        text-align: center;
+    }
+
+    .contactus-info-desc{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .contactus-info-container{        
+        margin-left: 0em !important;
+    }
+
+    .contactform-container{
+        width: 85%;
+    }
+}
+
+@media (min-width: 1900px) {
+    .wpforms-field-label{
+        font-size: 2rem !important;
+    }
+
+    .wpforms-field-container{
+        padding: 12% 9% 8% 9% !important
+    }
+}
