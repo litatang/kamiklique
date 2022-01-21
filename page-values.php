@@ -33,7 +33,7 @@
                             
                         <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values-number-1.png'?>" />
 							<div class="values-content">
-                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values-1.png'?>" />
+                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values_1.png'?>" />
                                 <br/>
 								<h4 class="text-gradient-blue"> Customer Obsessed </h3>
 							</div>
@@ -47,7 +47,7 @@
                             
                         <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values-number-2.png'?>" />
 							<div class="values-content">
-                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values-2.png'?>" />
+                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values_2.png'?>" />
                                 <br/>
 								<h4 class="text-gradient-blue"> Focus On Impact </h3>
 							</div>
@@ -62,7 +62,7 @@
                             
                         <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values-number-3.png'?>" />
 							<div class="values-content">
-                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values-3.png'?>" />
+                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values_3.png'?>" />
                                 <br/>
 								<h4 class="text-gradient-blue"> Show Up Curious </h3>
 							</div>
@@ -77,7 +77,7 @@
                             
                         <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values-number-4.png'?>" />
 							<div class="values-content">
-                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values-4.png'?>" />
+                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values_4.png'?>" />
                                 <br/>
 								<h4 class="text-gradient-blue"> Breathe</h3>
 							</div>
@@ -92,7 +92,7 @@
                             
                         <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values-number-5.png'?>" />
 							<div class="values-content">
-                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values-5.png'?>" />
+                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values_5.png'?>" />
                                 <br/>
 								<h4 class="text-gradient-blue"> Elevate Others </h3>
 							</div>
