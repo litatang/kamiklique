@@ -70,7 +70,7 @@ p {
 }
 
 .p-lg {
-    font-size: 1.33rem;
+    font-size: 1.2rem;
 }
 
 .p-md{
@@ -108,7 +108,7 @@ h4 {
 }
 
 h5 {
-    font-size: calc(1rem + 0.45vw) !important;
+    font-size: calc(1rem + 0.3vw) !important;
     font-weight: 400;
 }
 
