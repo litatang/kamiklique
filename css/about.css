@@ -167,13 +167,18 @@
 }
 
 @media screen and (max-width: 575.98px) {
+    
+    .values-number-image{
+        max-width: 50%;
+    }
+
     .values-container{
         margin-bottom: 6em;
     }
     
     .values-number{
-        margin-top: -32%;
-        padding: 3em 3em;   
+        margin-top: -21%;
+        padding: 1em 2em;   
     }
     .values-image{
         width: 30vw;
