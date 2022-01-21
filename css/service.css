@@ -5,7 +5,12 @@
 }
 
 .service-content-area{
-    overflow-x: hidden;
+    background-image: url("../images/bg-services.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden !important;
+    z-index: 2;
 }
 
 .services-hero{

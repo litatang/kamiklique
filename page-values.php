@@ -1,13 +1,13 @@
 <?php get_header(); ?>
 
-    <div class="container-fluid client-container m-0 p-0">
+    <div class="container-fluid values-section m-0 p-0">
         <div class="header-container">
             <div class="career-hero">            
                 <div class="text-center">
                     <h1 class="text-gradient-blue mb-3"> Values</h1>
                     <div class="clients-intro">
                         <p class="career-text p-md w-75"> 
-                        Ipsum natoque libero, erat arcu, in morbi. Sit adipiscing suscipit elementum, sit orci. Lectus nulla nisi, magnis amet odio nunc, egestas mauris.
+                            Things we believe firmly and do consistently - that helps us deliver and grow.
                         </p>
                     </div>
                 </div>
@@ -24,49 +24,83 @@
         </div>
         
 
-        <div class="values-container container align-items-center justify content-center p-0">
-            <div class="row">
-                <div class="col d-flex justify-content-center text-center">
-                    <div class="values-wrapper">
-                        <div class="values-content">                                
-                                <h5 class="values-title"> CUSTOMER OBSESSED</h5>                                
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col d-flex justify-content-center text-center">
-                    <div class="values-wrapper">
-                        <div class="values-content">                                
-                                <h5 class="values-title"> FOCUS ON IMPACT </h5>                                
-                        </div>
-                    </div>
-                </div>
+        <div class="container-fluid m-0 p-0 values-wrapper">
+			<div class="row d-flex justify-content-center">
+				<div class="col-12 col-lg-2 col-xl-2 col-xxl-2 d-flex justify-content-center text-center values-container">
+					<div class="values-border">
+						<div class="values-number">
+							
+                            
+                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values-number-1.png'?>" />
+							<div class="values-content">
+                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values-1.png'?>" />
+                                <br/>
+								<h4 class="text-gradient-blue"> Customer Obsessed </h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-2 col-xl-2 col-xxl-2 d-flex justify-content-center text-center values-container">
+					<div class="values-border">
+						<div class="values-number">
+							
+                            
+                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values-number-2.png'?>" />
+							<div class="values-content">
+                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values-2.png'?>" />
+                                <br/>
+								<h4 class="text-gradient-blue"> Focus On Impact </h3>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                <div class="col d-flex justify-content-center text-center">
-                    <div class="values-wrapper">
-                        <div class="values-content">                                
-                                <h5 class="values-title"> SHOW UP CURIOUS</h5>                                
-                        </div>
-                    </div>
-                </div>
+                <div class="col-12 col-lg-2 col-xl-2 col-xxl-2 d-flex justify-content-center text-center values-container">
+					<div class="values-border">
+						<div class="values-number">
+							
+                            
+                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values-number-3.png'?>" />
+							<div class="values-content">
+                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values-3.png'?>" />
+                                <br/>
+								<h4 class="text-gradient-blue"> Show Up Curious </h3>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                <div class="col d-flex justify-content-center text-center">
-                    <div class="values-wrapper">
-                        <div class="values-content">                                
-                                <h5 class="values-title"> BREATHE</h5>                                
-                        </div>
-                    </div>
-                </div>
+                <div class="col-12 col-lg-2 col-xl-2 col-xxl-2 d-flex justify-content-center text-center values-container">
+					<div class="values-border">
+						<div class="values-number">
+							
+                            
+                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values-number-4.png'?>" />
+							<div class="values-content">
+                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values-4.png'?>" />
+                                <br/>
+								<h4 class="text-gradient-blue"> Breathe</h3>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                <div class="col d-flex justify-content-center text-center">
-                    <div class="values-wrapper">
-                        <div class="values-content">                                
-                                <h5 class="values-title"> ELEVATE OTHERS</h5>                                
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                <div class="col-12 col-lg-2 col-xl-2 col-xxl-2 d-flex justify-content-center text-center values-container">
+					<div class="values-border">
+						<div class="values-number">
+							
+                            
+                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values-number-5.png'?>" />
+							<div class="values-content">
+                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values-5.png'?>" />
+                                <br/>
+								<h4 class="text-gradient-blue"> Elevate Others </h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
     </div>
 
 <?php get_footer(); ?>

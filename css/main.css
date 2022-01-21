@@ -887,10 +887,66 @@ html {
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 825px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
     
-    .primary-menu-nav ul li a{
+    /* .primary-menu-nav ul li a{
         padding: 1em 1.575em !important;
+    } */
+
+    .navbar-nav{
+        background-color: red;
+        height: 100vh;
+    }
+
+    .navbar-nav{
+        padding-top: 100px;
+        background: linear-gradient(-60.86deg, #ABE0EF -23.88%, #233A76 72.76%);
+        box-shadow: -10px 0px 30px rgba(0, 0, 0, 0.12);
+        height: 100vh;
+    }
+
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        z-index: -1 !important;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar-collapse.collapsing {
+        right: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        right: 0;
+        transition: right 300ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: right 175ms ease-in-out;
+    }
+
+    .primary-menu-nav ul li a{
+        color: white !important;
+    }
+
+    body.lock-scroll .navbar{
+        z-index: 999;
+        pointer-events: auto;
+    }
+
+    body.lock-scroll .navbar-brand{
+        background-color: transparent;
+    }
+
+    body.lock-scroll .navbar-logo{
+        display: none;
+    }
+    .primary-menu-nav ul li a{
+        text-transform: none;
+        font-size: 1.35rem;
     }
 }
 

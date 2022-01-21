@@ -12,7 +12,7 @@
 <body>
 
 
-<nav class="navbar sticky-top navbar-expand-md navbar-light klique-primary-menu" role="navigation">
+<nav class="navbar sticky-top navbar-expand-lg navbar-light klique-primary-menu" role="navigation">
   <div class="container-fluid m-0 p-0 menu-container">
     <a class="navbar-brand ms-3" href="https://theblobstudio.com/klique/">
         <img class="img-fluid navbar-logo ms-1" src="<?php echo get_template_directory_uri() . '/images/logo-klique.png'?>"/>        
