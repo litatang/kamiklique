@@ -99,18 +99,19 @@
 
 @media screen and (max-width: 575.98px){
     .footer-lineheight{
+        margin: 1px;
         line-height: normal;
     }
     .footer-container{
         left:0;
-        margin-bottom: 2em;
+        margin-bottom: 1em;
         
     }
 
     .footer-content{
         display: flex;
         justify-content: space-evenly;
-
+        margin-top: 5em;
         
     }
     .footer-address{
@@ -119,6 +120,7 @@
         margin-left: 2em;
         text-align: start;
         height: auto;
+        font-size: 0.9rem;
     }    
     
     .footer-menu{
@@ -144,7 +146,11 @@
     }
 
     .footer-text {
-        font-size: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .footer-section{
+        padding-bottom: 1em;
     }
     
 }
@@ -156,20 +162,23 @@
     
     .footer-container{
         position: relative;
-        /* margin-bottom: 2em; */
+        margin-bottom: 2em;
         top: 27%;
         /* left: 7%; */
     }
 
     .footer-copyright{
         display: flex;
-        justify-content: center;
+        justify-content: end;
         align-items: center;
         position: static;
-        padding: 0;
+        padding-right: 2em;
         margin: 0 0.5em;
         text-align: center;
+    }
 
+    .footer-section {
+        padding-bottom: 1em;
     }
 }
 

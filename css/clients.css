@@ -76,6 +76,24 @@
 
 
 @media screen and (max-width: 575.98px) {
+    /* .migo{content: url('../images/client/migo.png');}
+    .bridges{content: url('../images/client/bridges.png');}
+    .sgu{content: url('../images/client/sgu.png');}
+    .keeppack{content: url('../images/client/keeppack.png');}
+    .revival{content: url('../images/client/revival.png');}
+    .gordi{content: url('../images/client/gordi.png');}
+    .digitalskola{content: url('../images/client/digitalskola.png');}
+    .okegarden{content: url('../images/client/okegarden.png');}
+    .roketin{content: url('../images/client/roketin.png');}
+    .maximum{content: url('../images/client/maximum.png');}
+    .skilvul{content: url('../images/client/skilvul.png');}
+    .mangkokku{content: url('../images/client/mangkokku.png');}
+    .tujju{content: url('../images/client/tujju.png');}
+    .blocksphere{content: url('../images/client/blocksphere.png');}
+    .sagensie{content: url('../images/client/sagensie.png');}
+    .adxasia{content: url('../images/client/adxasia.png');}
+    .kasual{content: url('../images/client/kasual.png');}
+    .codemi{content: url('../images/client/codemi.png');} */
 
     .client_1, .client_2, .client_3, .client_4, .client_5{
         height: 100% !important;
