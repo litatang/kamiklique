@@ -27,17 +27,10 @@
     margin-left: 5em;
 }
 
-
 .hue-filter{
-    /* filter: url(#blue-wash); */
     object-fit: cover;
     width: 100%;
 }
-
-.hue-filter:hover{
-    /* filter: none; */
-}
-
 
 .about-info{
     display: flex;
