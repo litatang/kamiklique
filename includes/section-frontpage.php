@@ -266,7 +266,7 @@
 							">
 								<div class="circle-light home-circle-light">
 									<div class="circle-content">
-										<h5 class="fw-bold">166%</h5>
+										<h3 class="fw-bold">166%</h3>
 									</div>
 								</div>
 							</div>
@@ -292,7 +292,7 @@
 							">
 								<div class="circle home-circle">    
 									<div class="circle-content">  
-										<h5 class="fw-bold text-light">74%</h5>
+										<h3 class="fw-bold text-light">74%</h3>
 									</div>                    
 								</div>
 							</div>    
@@ -321,7 +321,7 @@
 							">
 								<div class="circle home-circle">
 									<div class="circle-content">
-										<h5 class="fw-bold text-light">46%</h5>
+										<h3 class="fw-bold text-light">46%</h3>
 									</div>
 								</div>
 							</div>
@@ -347,7 +347,7 @@
 							">
 								<div class="circle-light home-circle-light">    
 									<div class="circle-content"> 
-										<h5 class="fw-bold">87%</h5>
+										<h3 class="fw-bold">87%</h3>
 									</div>                    
 								</div>
 							</div>    
@@ -376,7 +376,7 @@
 							">
 								<div class="circle-light home-circle-light">
 									<div class="circle-content">
-										<h5 class="fw-bold">33%</h5>
+										<h3 class="fw-bold">33%</h3>
 									</div>
 								</div>
 							</div>
@@ -404,7 +404,7 @@
 							">
 								<div class="circle home-circle">    
 									<div class="circle-content">  
-										<h5 class="fw-bold text-light">30%</h5>                  
+										<h3 class="fw-bold text-light">30%</h3>                  
 									</div>                    
 								</div>
 							</div>    

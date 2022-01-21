@@ -5,7 +5,7 @@
     <div class="footer-container">
         <div class="footer-content">
             <div class="footer-address">
-                <img class="footer-logo img-fluid mb-4" src="<?php echo get_template_directory_uri() . '/images/footer-logo.png'?>" />
+                <img class="footer-logo img-fluid mb-3" src="<?php echo get_template_directory_uri() . '/images/footer-logo.png'?>" />
                 <p class="text-light text-lato footer-lineheight"> PT. Kami Klique  <span class="lineheightwrap"> Indonesia </span></p>
                 <p class="text-light text-lato footer-lineheight"> Jl. Iskandar Muda  <span class="lineheightwrap"> No.8 </span> </p>
                 <p class="text-light text-lato footer-lineheight"> Kota Tangerang,  <span class="lineheightwrap"> Banten 15129 </span> </p>
