@@ -36,7 +36,7 @@
 						</div>
 					</div>
 
-                    <h5 class="mt-4 fw-bold text-gradient-blue w-75"> Customer Obsessed </h5>
+                    <h5 class="mt-4 fw-bold text-gradient-blue w-75 values-title"> Customer Obsessed </h5>
 				</div>
 				<div class="col-12 col-lg-2 col-xl-2 col-xxl-2 justify-content-center text-center values-container">
 					<div class="values-border">
@@ -48,7 +48,7 @@
 						</div>
 					</div>
 
-                    <h5 class="mt-4 fw-bold text-gradient-blue w-75"> Focus On Impact </h5>
+                    <h5 class="mt-4 fw-bold text-gradient-blue w-75 values-title"> Focus On Impact </h5>
 				</div>
 
                 <div class="col-12 col-lg-2 col-xl-2 col-xxl-2 justify-content-center text-center values-container">
@@ -61,7 +61,7 @@
 						</div>
 					</div>
 
-                    <h5 class="mt-4 fw-bold text-gradient-blue w-75"> Show Up Curious </h5>
+                    <h5 class="mt-4 fw-bold text-gradient-blue w-75 values-title"> Show Up Curious </h5>
 				</div>
 
                 <div class="col-12 col-lg-2 col-xl-2 col-xxl-2 justify-content-center text-center values-container">
@@ -74,7 +74,7 @@
 						</div>
 					</div>
 
-                    <h5 class="mt-4 fw-bold text-gradient-blue w-75"> Breathe</h5>
+                    <h5 class="mt-4 fw-bold text-gradient-blue w-75 values-title"> Breathe</h5>
 				</div>
 
                 <div class="col-12 col-lg-2 col-xl-2 col-xxl-2 justify-content-center text-center values-container">
@@ -86,7 +86,7 @@
 							</div>
 						</div>
 					</div>
-                    <h5 class="mt-4 fw-bold text-gradient-blue w-75"> Elevate Others </h5>
+                    <h5 class="mt-4 fw-bold text-gradient-blue w-75 values-title"> Elevate Others </h5>
 				</div>
 			</div>
 		</div>

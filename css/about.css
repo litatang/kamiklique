@@ -167,6 +167,12 @@
 }
 
 @media screen and (max-width: 575.98px) {
+    .values-wrapper{
+        margin-top: 6em !important;
+    }
+    .values-title{
+        font-size: calc(1.1rem + 1vw) !important;
+    }
     
     .values-number-image{
         max-width: 50%;
