@@ -113,7 +113,7 @@
     z-index: 2;
 }
 .values-wrapper{
-    margin-bottom: 20em !important;
+    margin-bottom: 15em !important;
 }
 
 .values-container{
@@ -129,11 +129,12 @@
     border: double 1em transparent;
     border-radius: 40px;
     background-image: linear-gradient(white, white), 
-                       linear-gradient(270.74deg, #80D0E5 -5.46%, #3E61AC 96.76%);
+                       linear-gradient(180.74deg, #80D0E5 -5.46%, #3E61AC 96.76%);
     background-origin: border-box;
     background-clip: content-box, border-box;
-    border-width: 4px;
+    border-width: 3px;
     position: relative;
+    height: auto;
 }
 
 .values-number{
@@ -153,7 +154,7 @@
 }
 
 .values-image{
-    height: 10em;
+    /* height: 10em; */
     object-fit: contain;
     width: 75%;
 }
@@ -163,6 +164,9 @@
 }
 
 @media screen and (max-width: 575.98px) {
+    .values-container{
+        margin-bottom: 6em;
+    }
     
     .values-number{
         margin-top: -32%;
@@ -175,9 +179,9 @@
     }
 
     .values-border {
-        width: 60vw;
+        width: 65vw;
         height: auto;
-        margin-top: 8vh;
+        margin: auto;
     }
 
     .values-content{
@@ -192,7 +196,9 @@
     }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
-    
+    .values-container{
+        margin-bottom: 2em;
+    }
     .values-number{
         margin-top: -25%;
         padding: 3em 3em;   
@@ -206,7 +212,7 @@
     .values-border {
         width: 60vw;
         height: auto;
-        margin-top: 8vh;
+        margin: auto;
     }
 
     .values-content{
@@ -220,19 +226,22 @@
     }
 }
 @media screen and (min-width: 767px) and (max-width: 991px) {
+    .values-container{
+        margin-bottom: 8em;
+    }
     .values-number{
         margin-top: -25%;
         padding: 3em 3em;   
     }
     .values-image{
-        width: 30vw;
+        width: 40vw;
         margin-bottom: 3em;
     }
 
     .values-border {
-        width: 40vw;
+        width: 60vw;
         height: auto;
-        margin-top: 8vh;
+        margin: auto;
     }
 
     .values-content{
@@ -256,17 +265,16 @@
         padding: 2em 2em;   
     }
     .values-image{
-        height: 8em;
+        height: 6em;
         object-fit: contain;
-        width: 90%;
+        width: 100%;
     }
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1899px) {
     .values-image{
-        height: 15em;
         object-fit: contain;
-        width: 75%;
+        width: 90%;
     }
 }
 
@@ -276,9 +284,8 @@
         padding: 3em 2em;   
     }
 
-    .values-image{
-        height: 20em;
+    .values-image{        
         object-fit: contain;
-        width: 60%;
+        height: 100%; 
     }
 }

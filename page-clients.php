@@ -33,9 +33,9 @@
 
         <div class="client-desc-container">
             <div class="client-desc-header">
-                <h2 class="text-gradient-blue">
+                <h3 class="text-gradient-blue">
                     We want to elevate your business faster, better, in more efficient and make-sense ways. 
-                </h2>
+                </h3>
             </div>        
         </div>
 

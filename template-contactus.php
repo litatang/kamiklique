@@ -37,7 +37,7 @@ Template Name: Contact Us
                 <img class=" img-fluid contact-team-photo"  src="<?php echo get_template_directory_uri() . '/images/contactus.png'?>" />
             
                 <div class="contactus-info-desc">
-                    <h2 class="text-gradient-blue mt-4 contactus-info-content"> We would love to have coffee <span class="nowrap">with you</span></h2>
+                    <h3 class="text-gradient-blue mt-4 contactus-info-content"> We would love to have coffee <span class="nowrap">with you</span></h3>
                     <p class="mt-3" >  We really like to discuss, expand our <span class="nowrap">horizon and network.</span>  </p>
                     <p class="contactus-info-content"> We would love to get to know you more, and you get to know us more as well, <span class="nowrap"> we will be happy.</span></p>
                     <br> 

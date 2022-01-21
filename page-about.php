@@ -73,66 +73,18 @@
 
                     <p class="p-lg"> To let you know our values, let us <span class="nowrap"> just say that: </span></p>
 
-                    <h6 class="lineheight"> We are <strong> customer obssessed.  </strong>  <br><br>
+                    <h5 class="lineheight"> We are <strong> customer obssessed.  </strong>  <br><br>
                         We do not give you just mere convenience, we really do <br>
                         <strong> focus on impact </strong> you can see, feel, and benefit from. 
-                    </h6>
+                    </h5>
                     <br>
-                    <h6 class="lineheight" >When we encounter problems, we <strong> show up curious </strong> to <span class="">see every angle.</span></h6>
+                    <h5 class="lineheight" >When we encounter problems, we <strong> show up curious </strong> to <span class="">see every angle.</span></h5>
                     <br>
-                    <h6 class="lineheight">When it's confusing and hectic, we <strong> breathe  </strong>  and remind ourselves why we need to always  <strong>  elevate others. </strong>  It works wonder for us.</h6>
+                    <h5 class="lineheight">When it's confusing and hectic, we <strong> breathe  </strong>  and remind ourselves why we need to always  <strong>  elevate others. </strong>  It works wonder for us.</h5>
                 </div>
             </div>
         </div>
-    </div>
-
-
-<!-- 
-        <svg style="display: none">
-            <filter id="blue-wash">
-            <feColorMatrix 
-                type="matrix" 
-                values="
-                0   0.95   0   0   0
-                0   0.95   0   0   0
-                0.01   0.95   0   .03   0
-                .1   1   1   1   0
-                    "/>
-            </filter>
-        </svg> -->
-
-
-
-    <!-- <div class="about-section container-fluid">
-        <div class="row">
-            <div class="col-lg-5 top-about-container">
-                <div class="top-about">
-                    <h6 class="lineheight" >When we encounter problems, we <strong> show up curious </strong>  to see every angle. </h6>
-
-                </div>
-            </div>
-            <div class="col-lg-7">
-            <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/about-1.png'?>" />
-            </div>
-        </div>
-    </div>
-
-
-    <div class="about-section container-fluid">
-        <div class="row ms-4">
-            <div class="col-lg-6">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/about-2.png'?>" />
-            </div>
-            <div class="col-lg-6 bottom-about-container">
-                <div class="bottom-about">
-                    <h6 class="lineheight">When it's confusing and hectic, we <strong> breathe  </strong>  and remind ourselves why we need to always  <strong>  elevate others. </strong>  It works wonder for us.</h6>
-
-                </div>
-            </div>
-            
-        </div>
-    </div> -->
-    
+    </div>    
 </div>
 
 <?php get_footer(); ?>

@@ -35,7 +35,7 @@
                                 />
                             <?php endif; ?>
 
-                            <h5 class="featured-slider-header  mt-3"> <?php the_title(); ?> </h5>
+                            <h6 class="featured-slider-header  mt-3"> <?php the_title(); ?> </h6>
 
                             <div class="featured-slider-excerpt"> 
                                 <p> <?php the_excerpt(); ?> </p>

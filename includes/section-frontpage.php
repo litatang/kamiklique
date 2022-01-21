@@ -219,7 +219,7 @@
 					<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 homecol">
 						<h1 class="text-gradient-blue"> We help companies <br class="desktop-only">in Indonesia.</h1>
 				
-						<p class="p-md mt-4"> 
+						<p class="mt-4"> 
 							<strong> Accelerating their business </strong> growth through practical and impactful Human Resources Management practices.
 						</p>
 					</div>
@@ -266,7 +266,7 @@
 							">
 								<div class="circle-light home-circle-light">
 									<div class="circle-content">
-										<h3 class="">166%</h3>
+										<h5 class="fw-bold">166%</h5>
 									</div>
 								</div>
 							</div>
@@ -291,8 +291,8 @@
 								col-xxl-2 
 							">
 								<div class="circle home-circle">    
-									<div class="circle-content">                    
-										<h3 class="text-light">74%</h3>
+									<div class="circle-content">  
+										<h5 class="fw-bold text-light">74%</h5>
 									</div>                    
 								</div>
 							</div>    
@@ -321,7 +321,7 @@
 							">
 								<div class="circle home-circle">
 									<div class="circle-content">
-										<h3 class="text-light">46%</h3>
+										<h5 class="fw-bold text-light">46%</h5>
 									</div>
 								</div>
 							</div>
@@ -346,8 +346,8 @@
 								col-xxl-2 order-xxl-3
 							">
 								<div class="circle-light home-circle-light">    
-									<div class="circle-content">                    
-										<h3 class="">87%</h3>
+									<div class="circle-content"> 
+										<h5 class="fw-bold">87%</h5>
 									</div>                    
 								</div>
 							</div>    
@@ -376,7 +376,7 @@
 							">
 								<div class="circle-light home-circle-light">
 									<div class="circle-content">
-										<h3 class="">33%</h3>
+										<h5 class="fw-bold">33%</h5>
 									</div>
 								</div>
 							</div>
@@ -403,8 +403,8 @@
 								home-success-story-desktop
 							">
 								<div class="circle home-circle">    
-									<div class="circle-content">                    
-										<h3 class="text-light">30%</h3>
+									<div class="circle-content">  
+										<h5 class="fw-bold text-light">30%</h5>                  
 									</div>                    
 								</div>
 							</div>    
@@ -567,7 +567,6 @@
 		</div>
 
 		<div class="expertise-header">
-
 			<h2 class="text-gradient-blue"> Our Expertise</h2>
 		</div>
 
@@ -581,7 +580,7 @@
 							<img class="exp1img2 img-fluid"src="<?php echo get_template_directory_uri() . '/images/expertise_1.png'?>" />
 							<div class="expertise-content">
 								<h3> Retainer Based <br> People Operations & Strategy </h3>
-								<p class="mt-3 p-md"> As start-up founders or business leader/owner, we know that finding the right HR person is not easy.</p>
+								<p class="mt-4 expertise-overview-desc"> As start-up founders or business leader/owner, we know that finding the right HR person is not easy.</p>
 
 							</div>
 						</div>
@@ -593,7 +592,7 @@
 							<img class="exp1img2 img-fluid"src="<?php echo get_template_directory_uri() . '/images/expertise_2.png'?>" />
 							<div class="expertise-content">
 							<h3> Project Based<br>  People Strategy Services </h3>
-								<p class="mt-3 p-md"> We will assist in identfying challenges in your organization and provide you with the best suited and practical Human Resources solution. </p>
+								<p class="mt-4 expertise-overview-desc"> We will assist in identfying challenges in your organization and provide you with the best suited and practical Human Resources solution. </p>
 							</div>
 						</div>
 					</div>
@@ -617,8 +616,8 @@
 							growing with us. <br>
 						</h2>
 						<p> <br>
-						<strong class="fs-5"> 3 </strong> Cities | <strong class="fs-5"> 11 </strong> Partners<br>
-						<strong class="fs-5"> 25 </strong> Companies | <strong class="fs-5"> 800 </strong> Employees<br><br>
+						<strong class="p-lg"> 3 </strong> Cities | <strong class="p-lg"> 11 </strong> Partners<br>
+						<strong class="p-lg"> 25 </strong> Companies | <strong class="p-lg"> 800 </strong> Employees<br><br>
 
 						a lot of success stories
 
@@ -990,7 +989,7 @@
 
 
 			var percent = $(document).scrollTop() / ($(document).height() - $(window).height());
-			$(".section-1").css('opacity', 1 - percent * 8);
+			$(".section-1").css('opacity', 1 - percent * 18);
 			var  em1 = document.getElementById("section-1");
 					var  currentOpacity1 = window.getComputedStyle(em1).getPropertyValue("opacity");
 					if(currentOpacity1 == 0){
@@ -1027,7 +1026,7 @@
 			} else {
 				if(percent > 0.135){
 					$(".section-2").css('opacity', 1 - ((percent -0.2 ) * 20));
-					$(".section-2").css('transform', 'translateX('+ percent*500 + 'px)');
+					$(".section-2").css('transform', 'translateX('+ percent*200 + 'px)');
 					$("#js-dots").css('opacity', 1 - ((percent - 0.2 ) * 35));
 					
 					var  em = document.getElementById("js-dots");
@@ -1043,10 +1042,11 @@
 					var  currentOpacity2 = window.getComputedStyle(em2).getPropertyValue("opacity");
 					if(currentOpacity2 == 0){
 						$("#section-2").css('visibility', 'hidden');
+						$(".section-2").css('transform', 'translateX(-'+ percent*200 + 'px)');
 					} else {
 						$("#section-2").css('visibility', 'visible');
 					}
-				} else {					
+				} else {
 					$(".section-2").css('opacity', 0 + (percent * 7));	
 				}
 			}

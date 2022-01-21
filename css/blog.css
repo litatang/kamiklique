@@ -89,8 +89,14 @@
 .klique-subheader{
     color: #233A76;
     font-weight: bold;
+    font-family: 'Lato', sans-serif !important;
     text-decoration: none;
     margin-top: 2em;
+}
+
+.klique-subheader:hover{
+    font-weight: 800;
+    color: #233A76;
 }
 
 
@@ -190,6 +196,12 @@
     color: #233A76;
 }
 
+.side-featured-post-list:hover{
+    text-decoration: none;
+    color: #233A76;
+    font-weight: 900;
+}
+
 
 .slick-slide-test{
     display: block;
@@ -241,6 +253,8 @@
     width: 100%; 
     object-fit: cover;
 }
+
+
 
 @media screen and (max-width: 575.98px){
     .side-article-container{

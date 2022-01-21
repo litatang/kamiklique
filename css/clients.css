@@ -26,10 +26,10 @@
 }
 
 .clients-image{
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    /* display: block; */
+    /* width: 80%; */
+    /* height: 50vh; */
+    object-fit: contain;
 }
 
 .clients-gallery{
@@ -44,6 +44,11 @@
     margin-bottom: 13em;
 }
 
+
+.client_1, .client_2, .client_3, .client_4, .client_5{
+    height: 50vh !important;
+    object-fit: contain;
+}
 
 .client_1:hover{content: url('../images/client_1.png') !important;}
 .client_2:hover{content: url('../images/client_2.png') !important;}

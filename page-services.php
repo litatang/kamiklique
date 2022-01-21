@@ -6,7 +6,7 @@
                 <div class="services-intro">
                     <h1 class="text-gradient-blue mt-5"> We put our hearts <br> into what we do.</h1>
     
-                    <p class="p-md services-description"> 
+                    <p class="services-description"> 
                         We want our client to shine. We dedicate our time to transform your organization to be able to keep up with the company strategy, to be able to win in the marketplace, to prepare the people so they know better.
                     </p>
                 </div>            

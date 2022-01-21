@@ -25,79 +25,68 @@
         
 
         <div class="container-fluid m-0 p-0 values-wrapper">
-			<div class="row d-flex justify-content-center">
-				<div class="col-12 col-lg-2 col-xl-2 col-xxl-2 d-flex justify-content-center text-center values-container">
+			<div class="row d-flex justify-content-center text-center">
+				<div class="col-12 col-lg-2 col-xl-2 col-xxl-2 justify-content-center text-center values-container">
 					<div class="values-border">
-						<div class="values-number">
-							
-                            
+						<div class="values-number">							                            
                         <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values_number_1.png'?>" />
 							<div class="values-content">
-                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values_1.png'?>" />
-                                <br/>
-								<h4 class="text-gradient-blue"> Customer Obsessed </h3>
+                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/Avalues_1.png'?>" />
 							</div>
 						</div>
 					</div>
+
+                    <h5 class="mt-4 fw-bold text-gradient-blue w-75"> Customer Obsessed </h5>
 				</div>
-				<div class="col-12 col-lg-2 col-xl-2 col-xxl-2 d-flex justify-content-center text-center values-container">
+				<div class="col-12 col-lg-2 col-xl-2 col-xxl-2 justify-content-center text-center values-container">
 					<div class="values-border">
-						<div class="values-number">
-							
-                            
-                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values_number_2.png'?>" />
+						<div class="values-number">							                            
+                            <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values_number_2.png'?>" />
 							<div class="values-content">
-                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values_2.png'?>" />
-                                <br/>
-								<h4 class="text-gradient-blue"> Focus On Impact </h3>
+                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/Avalues_2.png'?>" />								
 							</div>
 						</div>
 					</div>
+
+                    <h5 class="mt-4 fw-bold text-gradient-blue w-75"> Focus On Impact </h5>
 				</div>
 
-                <div class="col-12 col-lg-2 col-xl-2 col-xxl-2 d-flex justify-content-center text-center values-container">
+                <div class="col-12 col-lg-2 col-xl-2 col-xxl-2 justify-content-center text-center values-container">
 					<div class="values-border">
-						<div class="values-number">
-							
-                            
-                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values_number_3.png'?>" />
+						<div class="values-number">						                            
+                            <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values_number_3.png'?>" />
 							<div class="values-content">
-                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values_3.png'?>" />
-                                <br/>
-								<h4 class="text-gradient-blue"> Show Up Curious </h3>
+                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/Avalues_3.png'?>" />
 							</div>
 						</div>
 					</div>
+
+                    <h5 class="mt-4 fw-bold text-gradient-blue w-75"> Show Up Curious </h5>
 				</div>
 
-                <div class="col-12 col-lg-2 col-xl-2 col-xxl-2 d-flex justify-content-center text-center values-container">
+                <div class="col-12 col-lg-2 col-xl-2 col-xxl-2 justify-content-center text-center values-container">
 					<div class="values-border">
-						<div class="values-number">
-							
-                            
-                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values_number_4.png'?>" />
+						<div class="values-number">						                            
+                            <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values_number_4.png'?>" />
 							<div class="values-content">
-                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values_4.png'?>" />
-                                <br/>
-								<h4 class="text-gradient-blue"> Breathe</h3>
+                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/Avalues_4.png'?>" />
 							</div>
 						</div>
 					</div>
+
+                    <h5 class="mt-4 fw-bold text-gradient-blue w-75"> Breathe</h5>
 				</div>
 
-                <div class="col-12 col-lg-2 col-xl-2 col-xxl-2 d-flex justify-content-center text-center values-container">
+                <div class="col-12 col-lg-2 col-xl-2 col-xxl-2 justify-content-center text-center values-container">
 					<div class="values-border">
-						<div class="values-number">
-							
-                            
-                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values_number_5.png'?>" />
+						<div class="values-number">							                            
+                            <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values_number_5.png'?>" />
 							<div class="values-content">
-                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values_5.png'?>" />
-                                <br/>
-								<h4 class="text-gradient-blue"> Elevate Others </h3>
+                                <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/Avalues_5.png'?>" />
 							</div>
 						</div>
 					</div>
+                    <h5 class="mt-4 fw-bold text-gradient-blue w-75"> Elevate Others </h5>
 				</div>
 			</div>
 		</div>

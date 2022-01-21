@@ -10,7 +10,7 @@
         <div class="row no-gutters">
             <div class="col-12">
                 <div class="article-section">
-                    <h2><?php the_title(); ?> </h2>
+                    <h3><?php the_title(); ?> </h3>
                 </div>
             </div>
             <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
@@ -50,9 +50,9 @@
                             while (have_posts()) : the_post();
                                 if(get_the_ID() != $curPost):
                                     echo '<li class="side-featured-post">'; ?>
-                                    <h5> 
+                                    <h6> 
                                         <a  href="<?php the_permalink();?>" class="side-featured-post-list"> <?php the_title()?> </a>
-                                    </h5>
+                                    </h6>
                                         
                                     <?php echo '</li>';
                                 endif;
