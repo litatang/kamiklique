@@ -31,7 +31,7 @@
 						<div class="values-number">
 							
                             
-                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values-number-1.png'?>" />
+                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values_number_1.png'?>" />
 							<div class="values-content">
                                 <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values_1.png'?>" />
                                 <br/>
@@ -45,7 +45,7 @@
 						<div class="values-number">
 							
                             
-                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values-number-2.png'?>" />
+                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values_number_2.png'?>" />
 							<div class="values-content">
                                 <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values_2.png'?>" />
                                 <br/>
@@ -60,7 +60,7 @@
 						<div class="values-number">
 							
                             
-                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values-number-3.png'?>" />
+                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values_number_3.png'?>" />
 							<div class="values-content">
                                 <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values_3.png'?>" />
                                 <br/>
@@ -75,7 +75,7 @@
 						<div class="values-number">
 							
                             
-                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values-number-4.png'?>" />
+                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values_number_4.png'?>" />
 							<div class="values-content">
                                 <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values_4.png'?>" />
                                 <br/>
@@ -90,7 +90,7 @@
 						<div class="values-number">
 							
                             
-                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values-number-5.png'?>" />
+                        <img class="values-number-image img-fluid"src="<?php echo get_template_directory_uri() . '/images/values_number_5.png'?>" />
 							<div class="values-content">
                                 <img class="img-fluid values-image" src="<?php echo get_template_directory_uri() . '/images/values_5.png'?>" />
                                 <br/>
