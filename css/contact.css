@@ -196,11 +196,41 @@ div.wpforms-confirmation-container-full, .wpforms-confirmation-container-full{
 }
 
 @media (min-width: 1900px) {
+    .wpforms-field-small, .wpforms-field-medium, .wpforms-field-large {
+        border-bottom: 3px solid #233A76 !important;
+        font-size: 1.5rem !important;
+    }
+
+    .wpforms-submit {
+        width: 15em !important;
+    }
+    .contactform-container {
+        width: 85%;
+        background-color: #fff;      
+        border: double 1em transparent;
+        border-radius: 75px;
+        background-image: linear-gradient(white, white), 
+                           linear-gradient(270.74deg, #80D0E5 -5.46%, #3E61AC 96.76%);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        border-width: 4px;
+        margin-bottom: 2em;
+    }
+
+    .contactus-info-container{        
+        align-items: center;
+    }
+
     .wpforms-field-label{
         font-size: 2rem !important;
     }
 
     .wpforms-field-container{
-        padding: 12% 9% 8% 9% !important
+        padding: 12% ​9% 5% 9% !important
+    }
+
+    .wpforms-submit-container{
+        text-align: right;
+        padding: 5%!important;
     }
 }

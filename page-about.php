@@ -30,7 +30,7 @@
                 col-md-4 order-md-1
                 col-sm-12 order-sm-1
                 col-12 order-1">
-                <div class="row gx-2">
+                <div class="row gx-2 about-team-row">
                     <div class="col-6">
                         <img class="img-fluid hue-filter" src="<?php echo get_template_directory_uri() . '/images/team_1.png'?>" />
                     </div>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
 
-                <div class="row mt-2 gx-2">
+                <div class="row mt-2 gx-2 about-team-row">
                     <div class="col-6">
                         <img class="img-fluid hue-filter" src="<?php echo get_template_directory_uri() . '/images/team_3.png'?>" />
                     </div>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
 
-                <div class="row mt-2 gx-2">
+                <div class="row mt-2 gx-2 about-team-row">
                     <div class="col-4">
                         <img class="img-fluid hue-filter" src="<?php echo get_template_directory_uri() . '/images/team_5.png'?>" />
                     </div>
@@ -74,8 +74,7 @@
                     <p class="p-lg"> To let you know our values, let us <span class="nowrap"> just say that: </span></p>
 
                     <h5 class="lineheight"> We are <strong> customer obssessed.  </strong>  <br><br>
-                        We do not give you just mere convenience, we really do <br>
-                        <strong> focus on impact </strong> you can see, feel, and benefit from. 
+                        We do not give you just mere convenience, we really do <strong> focus on impact </strong> you can see, feel, and benefit from. 
                     </h5>
                     <br>
                     <h5 class="lineheight" >When we encounter problems, we <strong> show up curious </strong> to <span class="">see every angle.</span></h5>

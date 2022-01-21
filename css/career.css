@@ -77,6 +77,13 @@
 .career-accordion-container{
     padding-bottom: 15em !important;
 }
+@media screen and (max-width: 575.98px) {
+    .career-text {
+        width: 75%;
+        margin: auto;
+    }
+}
+
 
 @media (min-width: 1900px) {
 

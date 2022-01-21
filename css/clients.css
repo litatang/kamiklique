@@ -76,10 +76,16 @@
 
 
 @media screen and (max-width: 575.98px) {
+
+    .client_1, .client_2, .client_3, .client_4, .client_5{
+        height: 100% !important;
+        object-fit: contain;
+    }
+
     .client-desc-container{
-        padding-right: 0;
+        padding-right: 2em;
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
         text-align: center;
     }
     .clients-image{
@@ -94,8 +100,14 @@
         padding: 0 3.5em;
     }
 
+    .client-desc-text{
+        width: 80%;
+        text-align: end;
+    }
     .client-desc-header{
         max-width: 80vw;
+        text-align: end;
+        margin-top: 1em;
     }
 
     .clients-gallery {

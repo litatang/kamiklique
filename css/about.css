@@ -22,16 +22,20 @@
     margin-bottom: 15em;
 }
 
+.about-team-row{
+    width: 70%;
+    margin-left: 5em;
+}
 
 
 .hue-filter{
-    filter: url(#blue-wash);
+    /* filter: url(#blue-wash); */
     object-fit: cover;
     width: 100%;
 }
 
 .hue-filter:hover{
-    filter: none;
+    /* filter: none; */
 }
 
 
@@ -76,6 +80,12 @@
 
 
 @media screen and (max-width: 575.98px) {
+    .about-team-row{
+        width: 90%;
+        margin-left: 0;
+        margin: auto;
+    }
+
     .about-hero{
         width: 85%;
     }
@@ -196,6 +206,7 @@
     }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
+
     .values-container{
         margin-bottom: 2em;
     }

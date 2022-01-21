@@ -93,7 +93,7 @@ h1 {
 }
 
 h2 {
-    font-size: calc(1.325rem + 1.7vw)!important;
+    font-size: calc(1.325rem + 1vw)!important;
     font-weight: 900;
 }
 
@@ -103,17 +103,17 @@ h3 {
 }
 
 h4 {
-    font-size: calc(1.275rem + 0.5vw)!important;
+    font-size: calc(1.275rem + 0.2vw)!important;
     font-weight: 700;
 }
 
 h5 {
-    font-size: calc(1rem + 0.7vw) !important;
+    font-size: calc(1rem + 0.45vw) !important;
     font-weight: 400;
 }
 
 h6 {
-    font-size: calc(1rem + 0.5vw)!important;
+    font-size: calc(1rem + 0.2vw)!important;
     font-weight: 700;
 }
 
@@ -832,7 +832,7 @@ html {
     }
 
     .p-lg {
-        font-size: 1.33rem !important;
+        font-size: 1.2rem !important;
     }
 
     p {
@@ -989,7 +989,7 @@ html {
     }
     
     h5 {
-        font-size: calc(1rem + 0.7vw) !important;
+        font-size: calc(1.4rem + 0.7vw) !important;
         font-weight: 400;
     }
     
