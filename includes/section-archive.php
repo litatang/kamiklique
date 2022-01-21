@@ -3,7 +3,7 @@
         <img src="<?php the_post_thumbnail_url();?>" class="blog-featured-image card-img-top img-fluid">
     <?php endif; ?>
     <div class="card-body">
-        <h3 class="card-title text-center mt-2"> 
+        <h3 class="card-title text-center mt-2 mx-2"> 
             <a target="_blank" href="<?php the_permalink();?>" class="klique-subheader" >
                 <?php the_title(); ?>
             </a>
