@@ -52,6 +52,7 @@
 
 .navbar-nav-footer{
     flex-direction: column;
+    line-height: 1.5em;
 }
 
 
@@ -96,6 +97,7 @@
     text-decoration:none;
     color: inherit;
 }
+
 
 @media screen and (max-width: 575.98px){
     .footer-lineheight{
@@ -209,7 +211,7 @@
     } */
 
     .footer-menu-nav ul li a span{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .footer-text{
