@@ -116,7 +116,7 @@
 }
 
 .services-section{
-    padding: 0 4vw;
+    padding: 0 6vw;
 }
 
 .expertise-title {
@@ -433,8 +433,8 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
     .circle-light, .circle{    
-        width: 55%;
-        padding-bottom: 55%;
+        width: 50%;
+        padding-bottom: 50%;
     }
     
     .circle-content{
@@ -442,6 +442,10 @@
         top: 50%; 
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    .service-container {
+        padding:2em
     }
 
     
@@ -519,8 +523,12 @@
     }
 
     .circle-light, .circle{    
-        width: 50%;
-        padding-bottom:50%;
+        width: 45%;
+        padding-bottom:45%;
+    }
+
+    .service-expertise-content, .service-expertise-content-2{
+        padding: 0 2em;
     }
 
 }
@@ -536,11 +544,11 @@
     }
 
     .service-container-1{
-        margin-left: -21%;
+        margin-left: -27%;
     }
 
     .service-container-2{
-        margin-right: -21%;
+        margin-right: -27%;
     }
 
     .circle-light, .circle{    
