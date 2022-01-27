@@ -33,7 +33,7 @@
                             <h3> #1 Retainer based <br> People Operations & Strategy Services </h3>
                         </div>
                         <div class="expertise-desc">
-                            <p class="p-md"> 
+                            <p class=""> 
                                 As start-up founders or business leader/owner, we know that <strong> finding the right HR person is not easy. </strong> 
                                 <br><br>
                                 They might not be as experienced as you'd like them to be, or suitable in your business environments, not to mention expensive with the risk of high turnover.
@@ -57,7 +57,7 @@
                             <h3> #2 Project based <br> People Strategy Services</h3>
                         </div>
                         <div class="expertise-desc">
-                            <p class="p-md"> 
+                            <p class=""> 
                             <strong> Discuss with us. </strong>  We will assist in identifying challenges in your organization and provide you with the best suited and practical Human Resources solution to solve the issues and elevate your business.
                                 <br><br>
                                     <span class="expertise-mobile-description"> 
@@ -117,7 +117,7 @@
                 ">
                     <div class="circle-light">
                         <div class="circle-content">
-                            <h3 class="">166%</h3>
+                            <h4 class="">166%</h4>
                         </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@
                 ">
                     <div class="circle">    
                         <div class="circle-content">                    
-                            <h3 class="text-light">74%</h3>
+                            <h4 class="text-light">74%</h4>
                         </div>                    
                     </div>
                 </div>    
@@ -172,7 +172,7 @@
                 ">
                     <div class="circle">
                         <div class="circle-content">
-                            <h3 class="text-light">46%</h3>
+                            <h4 class="text-light">46%</h4>
                         </div>
                     </div>
                 </div>
@@ -198,7 +198,7 @@
                 ">
                     <div class="circle-light">    
                         <div class="circle-content">                    
-                            <h3 class="">87%</h3>
+                            <h4 class="">87%</h4>
                         </div>                    
                     </div>
                 </div>    
@@ -227,7 +227,7 @@
                 ">
                     <div class="circle-light">
                         <div class="circle-content">
-                            <h3 class="">33%</h3>
+                            <h4 class="">33%</h4>
                         </div>
                     </div>
                 </div>
@@ -253,7 +253,7 @@
                 ">
                     <div class="circle">    
                         <div class="circle-content">                    
-                            <h3 class="text-light">30%</h3>
+                            <h4 class="text-light">30%</h4>
                         </div>                    
                     </div>
                 </div>    

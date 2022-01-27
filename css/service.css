@@ -1,6 +1,6 @@
 .success-story-text{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -26,19 +26,19 @@
     /* display: flex; */
     text-align: center;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .success-left{
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .circle{
     position:relative;
-    width: 8em;
-    padding-bottom: 8em;
+    width: 100%;
+    padding-bottom: 100%;
     background: -moz-linear-gradient(270.74deg, #80D0E5 -65.46%, #233A76 96.76%);
     background: -webkit-linear-gradient(270.74deg, #80D0E5 -65.46%, #233A76 96.76%);
     background: linear-gradient(270.74deg, #80D0E5 -65.46%, #233A76 96.76%);
@@ -72,7 +72,7 @@
 .col-desc{
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .service-expertise{
@@ -94,7 +94,7 @@
 }
 
 .service-expertise-content{
-    padding: 0.5em 4em;
+    padding: 2em 4em;
     display: flex;
     flex: 1;
     flex-wrap: wrap;
@@ -104,7 +104,7 @@
 }
 
 .service-expertise-content-2{
-    padding: 0 4em;
+    padding: 2em 4em;
     display: flex;
     flex: 1;
     flex-wrap: wrap;
@@ -112,11 +112,11 @@
     margin: auto;
     gap: 1px;
     text-align: right;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .services-section{
-    padding-right: 3vw;
+    padding: 0 4vw;
 }
 
 .expertise-title {
@@ -124,7 +124,7 @@
 }
 
 .service-image {
-    max-height: 45vh;
+    height: 32.5vh;
     margin: auto;
 }
 
@@ -141,7 +141,7 @@
 
 .success-story{
     margin-top: 5em !important;
-    margin-bottom: 14em !important;
+    margin-bottom: 20em !important;
 }
 
 .services-description{
@@ -151,7 +151,7 @@
 .success-story-header{
     display: block !important; 
     text-align: center;
-    margin-top: 3em;;
+    margin-top: 6em;
 }
 
 
@@ -229,6 +229,7 @@
 
     .service-image{
         max-width: 55%;
+        height: auto;
     }
 
     .service-image-mobile{
@@ -407,23 +408,49 @@
 }
 
 
-@media screen and (min-width: 992px) and (max-width: 1130px) {
-    .circle-light{    
-        width:8em;
-        padding-bottom:8em;
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .circle-light, .circle{    
+        width: 65%;
+        padding-bottom: 65%;
     }
-
-    .circle{
-        width:8em;
-        padding-bottom:8em;
-    }
-    
     
     .circle-content{
         position: absolute;
         top: 50%; 
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    
+    .service-container-1{
+        margin-left: -14%;
+    }
+
+    .service-container-2{
+        margin-right: -14%;
+    }
+} 
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .circle-light, .circle{    
+        width: 55%;
+        padding-bottom: 55%;
+    }
+    
+    .circle-content{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    
+    .service-container-1{
+        margin-left: -14%;
+    }
+
+    .service-container-2{
+        margin-right: -14%;
     }
 } 
 
@@ -433,21 +460,22 @@
     }
 
     .service-container{
-        padding: 5em 10em;
+        padding: 2em 8em;
     }
 
     .service-container-1{
-        margin-left: -30%;
+        margin-left: -25%;
     }
 
     .service-container-2{
-        margin-right: -30%;
+        margin-right: -25%;
     }
 
     .circle-light, .circle{    
-        width:11em;
-        padding-bottom:11em;
+        width: 50%;
+        padding-bottom:50%;
     }
+
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1899px) {
@@ -468,11 +496,36 @@
     }
 
     .circle-light, .circle{    
-        width:11em;
-        padding-bottom:11em;
+        width: 50%;
+        padding-bottom:50%;
     }
 }
-@media (min-width: 1900px) {
+@media screen and (min-width: 1900px) and (max-width: 2499px) {
+    .services-hero{
+        padding-left: 10em;
+        margin-top: 6em;
+    }
+
+    .service-container{
+        padding: 6em 10em;
+    }
+
+    .service-container-1{
+        margin-left: -22%;
+    }
+
+    .service-container-2{
+        margin-right: -22%;
+    }
+
+    .circle-light, .circle{    
+        width: 50%;
+        padding-bottom:50%;
+    }
+
+}
+
+@media (min-width: 2500px) {
     .services-hero{
         padding-left: 10em;
         margin-top: 6em;
@@ -491,8 +544,7 @@
     }
 
     .circle-light, .circle{    
-        width:13em;
-        padding-bottom:13em;
+        width: 50%;
+        padding-bottom:50%;
     }
-
 }

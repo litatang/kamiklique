@@ -75,8 +75,10 @@
 }
 
 .career-accordion-container{
-    padding-bottom: 15em !important;
+    padding-bottom: 20em !important;
+    max-width:  80vw;
 }
+
 @media screen and (max-width: 575.98px) {
     .career-text {
         width: 75%;
@@ -94,6 +96,11 @@
         height: 80%;
     }
     .career-accordion-container{
-        max-width: 1780px;
+        max-width:  70vw;
+        padding-bottom: 30vh !important;
+    }
+
+    .accordion-header {
+        margin-bottom: 0.3em;
     }
 }

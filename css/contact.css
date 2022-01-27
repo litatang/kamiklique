@@ -81,7 +81,7 @@ div.wpforms-confirmation-container-full, .wpforms-confirmation-container-full{
 
 .col-contactform{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .contactform-container {

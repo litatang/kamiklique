@@ -224,7 +224,7 @@
 						</p>
 					</div>
 					<div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5 homecol imagecol">
-						<img class="img-fluid image-slide-1" src="<?php echo get_template_directory_uri() . '/images/home-slider.png'?>" />
+						<img class="front-slider-image img-fluid" src="<?php echo get_template_directory_uri() . '/images/home-slider.png'?>" />
 					</div>
 
 					<div class="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1 ">						
@@ -266,7 +266,7 @@
 							">
 								<div class="circle-light home-circle-light">
 									<div class="circle-content">
-										<h3 class="fw-bold">166%</h3>
+										<h4 class="fw-bold">166%</h4>
 									</div>
 								</div>
 							</div>
@@ -292,7 +292,7 @@
 							">
 								<div class="circle home-circle">    
 									<div class="circle-content">  
-										<h3 class="fw-bold text-light">74%</h3>
+										<h4 class="fw-bold text-light">74%</h4>
 									</div>                    
 								</div>
 							</div>    
@@ -321,7 +321,7 @@
 							">
 								<div class="circle home-circle">
 									<div class="circle-content">
-										<h3 class="fw-bold text-light">46%</h3>
+										<h4 class="fw-bold text-light">46%</h4>
 									</div>
 								</div>
 							</div>
@@ -347,7 +347,7 @@
 							">
 								<div class="circle-light home-circle-light">    
 									<div class="circle-content"> 
-										<h3 class="fw-bold">87%</h3>
+										<h4 class="fw-bold">87%</h4>
 									</div>                    
 								</div>
 							</div>    
@@ -376,7 +376,7 @@
 							">
 								<div class="circle-light home-circle-light">
 									<div class="circle-content">
-										<h3 class="fw-bold">33%</h3>
+										<h4 class="fw-bold">33%</h4>
 									</div>
 								</div>
 							</div>
@@ -404,7 +404,7 @@
 							">
 								<div class="circle home-circle">    
 									<div class="circle-content">  
-										<h3 class="fw-bold text-light">30%</h3>                  
+										<h4 class="fw-bold text-light">30%</h4>                  
 									</div>                    
 								</div>
 							</div>    
@@ -579,7 +579,7 @@
 						<div class="exp1img">
 							<img class="exp1img2 img-fluid"src="<?php echo get_template_directory_uri() . '/images/expertise_1.png'?>" />
 							<div class="expertise-content">
-								<h3> Retainer Based <br> People Operations & Strategy </h3>
+								<h4> Retainer Based <br> People Operations & Strategy </h4>
 								<p class="mt-4 expertise-overview-desc"> As start-up founders or business leader/owner, we know that finding the right HR person is not easy.</p>
 
 							</div>
@@ -591,7 +591,7 @@
 						<div class="exp1img">
 							<img class="exp1img2 img-fluid"src="<?php echo get_template_directory_uri() . '/images/expertise_2.png'?>" />
 							<div class="expertise-content">
-							<h3> Project Based<br>  People Strategy Services </h3>
+							<h4> Project Based<br>  People Strategy Services </h4>
 								<p class="mt-4 expertise-overview-desc"> We will assist in identfying challenges in your organization and provide you with the best suited and practical Human Resources solution. </p>
 							</div>
 						</div>
@@ -755,14 +755,14 @@
 						<img style="transform: scale(0.9)" src="<?php echo get_template_directory_uri() . '/images/mail.png'?>" />
 
 						<a class="work-with-us-link" href="mailto:hello@klique.id">
-						&nbsp;<p class="p-md" style="display: inline;">hello@klique.id </p>
+						&nbsp;<p class="" style="display: inline;">hello@klique.id </p>
 						</a>
 						
 					</div>
 					<div class="ig-1">
 						<img  style="transform: scale(0.9)" src="<?php echo get_template_directory_uri() . '/images/instagram.png'?>" />
 						<a class="work-with-us-link" href="https://www.instagram.com/kliqueindonesia/"> 
-							<p class="p-md" style="display: inline;">@kliqueindonesia</p>						
+							<p class="" style="display: inline;">@kliqueindonesia</p>						
 						</a>
 					</div>
 				</div>
@@ -772,14 +772,14 @@
 						<img style="transform: scale(0.9)" src="<?php echo get_template_directory_uri() . '/images/mail.png'?>" />
 
 						<a class="work-with-us-link" href="mailto:recruitment@klique.id">
-						&nbsp;<p class="p-md" style="display: inline;">recruitment@klique.id</p>
+						&nbsp;<p class="" style="display: inline;">recruitment@klique.id</p>
 						</a>
 						
 					</div>
 					<div class="ig-2">
 						<img style="transform: scale(0.9)"  src="<?php echo get_template_directory_uri() . '/images/instagram.png'?>" />
 						<a class="work-with-us-link" href="https://www.instagram.com/thepeopleinsight/"> 
-							<p class="p-md" style="display: inline;">@thepeopleinsight</p> 
+							<p class="" style="display: inline;">@thepeopleinsight</p> 
 						</a>
 					</div>									
 				</div>

@@ -11,7 +11,7 @@
 .client-desc-container{
     padding-right: 4em;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     text-align: right;
 }
 
@@ -159,24 +159,30 @@
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1399px) {
 
+
+@media screen and (min-width: 992px) and (max-width: 1399px) {
+    .clients-logo-container{
+        margin-bottom: 26vh;
+    }
 }
 
-@media screen and (min-width: 1400px) and (max-width: 1599px) {
+@media screen and (min-width: 1400px) {
     .clients-logo-container{
-        max-width: 1200px;
+        max-width: 75vw;
+        margin-bottom: 28vh;
     }
+}
+
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+ 
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1899px) {
-    .clients-logo-container{
-        max-width: 1350px;
-    }
+    
 }
 
 @media screen and (min-width: 1900px) {
-    .clients-logo-container{
-        max-width: 1780px;
-    }
+    
 }
