@@ -89,7 +89,7 @@ p {
 }
 
 h1 {
-    font-size: clamp(3rem, 2.7vw, 25rem);
+    font-size: clamp(2.8rem, 2.5vw, 25rem);
     font-weight: 900;
 }
 
@@ -691,12 +691,10 @@ html {
         margin: 10vh 0;
     }
 
-    .primary-menu-nav ul li a{
+    .primary-menu-nav ul li a span{
         text-transform: none;
         font-size: 1.3rem;
     }
-    
-
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {

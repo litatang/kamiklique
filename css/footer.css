@@ -101,9 +101,13 @@
 
 
 @media screen and (max-width: 575.98px){
+    .footer-logo{
+        transform: scale(0.8);
+        margin-left: -1em;
+    }
     .footer-container{
         left:0;
-        margin-bottom: 1em;
+        /* margin-bottom: 1em; */
         
     }
 
@@ -116,7 +120,7 @@
     .footer-address{
         order: 1;
         /* margin: auto; */
-        margin-left: 2em;
+        margin-left: 1em;
         text-align: start;
         height: auto;
     }    
