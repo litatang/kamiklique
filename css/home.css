@@ -499,8 +499,8 @@
     }
 
     .home-circle, .home-circle-light{
-        width: 100%;
-        padding-bottom: 100%;
+        width: 90%;
+        padding-bottom: 90%;
     }
 
     .career-overview{
@@ -532,8 +532,8 @@
     }
 
     .home-circle, .home-circle-light{
-        width: 80%;
-        padding-bottom: 80%;
+        width: 70%;
+        padding-bottom: 70%;
     }
 
     .career-overview{
@@ -546,6 +546,10 @@
     
     .expertise-2{
         margin-right: 9em;
+    }
+
+    .contacts-button{
+        width: 24em;
     }
 }
 
@@ -579,8 +583,8 @@
     
 
     .home-circle, .home-circle-light{
-        width: 90%;
-        padding-bottom: 90%;
+        width: 75%;
+        padding-bottom: 75%;
     }
 
     
@@ -590,7 +594,7 @@
 
 
     .contacts-button{
-        width: 23em;
+        width: 24em;
     }
 }
 
@@ -630,8 +634,8 @@
     }    
 
     .home-circle, .home-circle-light{
-        width: 100%;
-        padding-bottom: 100%;
+        width: 85%;
+        padding-bottom: 85%;
     }
 
 
@@ -687,8 +691,8 @@
     }    
 
     .home-circle, .home-circle-light{
-        width: 90%;
-        padding-bottom: 90%;
+        width: 80%;
+        padding-bottom: 80%;
     }
 
     .imagecol{
@@ -752,8 +756,8 @@
     }    
 
     .home-circle, .home-circle-light{
-        width: 90%;
-        padding-bottom: 90%;
+        width: 80%;
+        padding-bottom: 80%;
     }
 
     .imagecol{

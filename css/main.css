@@ -89,7 +89,7 @@ p {
 }
 
 h1 {
-    font-size: clamp(3rem, 3vw, 25rem);
+    font-size: clamp(3rem, 2.7vw, 25rem);
     font-weight: 900;
 }
 
