@@ -151,7 +151,12 @@
             </div> 
             
                     
-            <?php if(show_max_post() == 1 ):?>
+            <?php if(show_max_post() == 0):?>
+                <div class="text-center no-post-blog-header">
+                    <h1 class="text-gradient-blue"> Blog </h1>
+                    <p class="mt-5"> Currently there are no post to show. Stay tuned for the updates!</p>
+                </div>                            
+            <?php elseif(show_max_post() == 1):?>
                 <div class="container d-flex text-center text-align justify-content-center pb-5 blog-loadmore-container"></div> 
             <?php else:?>
                     <div class="container d-flex text-center text-align justify-content-center pb-5 blog-loadmore-container">                
@@ -173,8 +178,13 @@
                     <?php endwhile; ?> 
                 <?php else: endif; ?>
             </div>
-
-            <?php if(show_max_post() == 1 ):?>
+            
+            <?php if(show_max_post() == 0):?>
+                <div class="text-center no-post-blog-header">
+                    <h1 class="text-gradient-blue"> Blog </h1>
+                    <p class="mt-5"> Currently there are no post to show. Stay tuned for the updates!</p>
+                </div>                            
+            <?php elseif(show_max_post() == 1):?>
                     <div class="container d-flex text-center text-align justify-content-center pb-5 blog-loadmore-container"></div> 
             <?php else:?>
                 <div class="container d-flex text-center text-align justify-content-center pb-5 blog-loadmore-container">                
