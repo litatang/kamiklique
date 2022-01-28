@@ -145,14 +145,15 @@
                     <?php while(have_posts()): the_post(); ?>
                         <div class="col page-limit blog-col-container"  data-maxpage="<?php echo show_max_post();?>" data-page='/<?php echo check_paged();?>' data-url="<?php echo admin_url('admin-ajax.php')?>" >
                             <?php get_template_part('includes/section', 'archive'); ?>            
-                        </div>        
+                        </div>
                     <?php endwhile; ?> 
                 <?php else: endif; ?>
             </div> 
             
-            <?php  if($query->max_num_pages == 1 || str_replace("page", "", (str_replace("/", "", check_paged()))) == show_max_post()) : ?>
+                    
+            <?php if(show_max_post() == 1 ):?>
                 <div class="container d-flex text-center text-align justify-content-center pb-5 blog-loadmore-container"></div> 
-                <?php else:?>
+            <?php else:?>
                     <div class="container d-flex text-center text-align justify-content-center pb-5 blog-loadmore-container">                
                         <a class="gradient-button-blue btn-load-more btn-load" data-maxpage="<?php echo show_max_post();?>"  data-page="<?php echo check_paged(1);?>" data-url="<?php echo admin_url('admin-ajax.php')?>">
                             <span class="text"> Load More </span>
@@ -173,16 +174,16 @@
                 <?php else: endif; ?>
             </div>
 
-            <?php  if($query->max_num_pages == 1 || str_replace("page", "", (str_replace("/", "", check_paged()))) == show_max_post()) : ?>
+            <?php if(show_max_post() == 1 ):?>
                     <div class="container d-flex text-center text-align justify-content-center pb-5 blog-loadmore-container"></div> 
-                <?php else:?>
-                    <div class="container d-flex text-center text-align justify-content-center pb-5 blog-loadmore-container">                
-                        <a class="gradient-button-blue btn-load-more btn-load" data-maxpage="<?php echo show_max_post();?>"  data-page="<?php echo check_paged(1);?>" data-url="<?php echo admin_url('admin-ajax.php')?>">
-                            <span class="text"> Load More </span>
-                            <span class="text-loading d-none"> Loading </span>
-                        </a>
-                    </div> 
-                <?php endif;?>
+            <?php else:?>
+                <div class="container d-flex text-center text-align justify-content-center pb-5 blog-loadmore-container">                
+                    <a class="gradient-button-blue btn-load-more btn-load" data-maxpage="<?php echo show_max_post();?>"  data-page="<?php echo check_paged(1);?>" data-url="<?php echo admin_url('admin-ajax.php')?>">
+                        <span class="text"> Load More </span>
+                        <span class="text-loading d-none"> Loading </span>
+                    </a>
+                </div> 
+            <?php endif;?>
             
         </div>    
     </div>

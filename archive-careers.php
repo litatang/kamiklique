@@ -6,12 +6,19 @@
                 <div class="text-center">
                     <h1 class="text-gradient-blue mb-3"> Careers</h1>
                     <p class="career-text p-md"> 
-                    We're actively hiring! Please find the most suited job for you and apply. <br>We are looking forward to speak and get to know you better!
+
+                        <?php if( have_posts() ) : ?>
+                            We're actively hiring!                     
+                            Please find the most suited job for you and apply. <br>We are looking forward to speak and get to know you better!
+                        <?php else: ?>
+                            There are no vacancies available right now.
+                        <?php endif;?>
+
                     </p>
-                   
                 </div>                                             
             </div>  
 
+            <?php if( have_posts() ) : ?>
             <div class="mouse-scroll">
                 <div class="mouse">
                     <div class="wheel"></div>
@@ -20,6 +27,7 @@
                     <span class="scroll-arrows unu"></span>                            
                 </div>
             </div>
+            <?php endif;?>
         </div>
               
         <div class="container career-accordion-container">
@@ -41,14 +49,15 @@
 
 <?php get_footer(); ?>
 
-<script> (function($){
+<script> 
+// (function($){
 
-    var divPosition = $('.career-list').offset();
+//     var divPosition = $('.career-list').offset();
 
-    $('.mouse-scroll').on('click', function(e) {
-        e.preventDefault();
-        $('html, body').animate({scrollTop: divPosition.top - 85}, "slow");
-    });
-    })(jQuery)
+//     $('.mouse-scroll').on('click', function(e) {
+//         e.preventDefault();
+//         $('html, body').animate({scrollTop: divPosition.top - 85}, "slow");
+//     });
+//     })(jQuery)
 
 </script>

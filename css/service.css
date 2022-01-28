@@ -156,9 +156,7 @@
 
 
 @media screen and (max-width: 575.98px) {
-    .services-section {
-        margin-top: 10em;
-    }
+   
     .services-hero{
         padding: 0 2em;
         text-align: center;
@@ -218,7 +216,9 @@
         text-align: left;
     }
 
-    .services-section{
+    .services-section {
+        margin-top: 10em;
+        padding: 0;
         padding-right:0;
     }
 
