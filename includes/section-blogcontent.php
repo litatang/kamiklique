@@ -37,8 +37,7 @@
 
                 <div class="feature-section">
 
-                    <h4 class="featured-title"> Featured</h4>
-                    <hr class="featured-divider"/>
+                  
 
                     <?php 
                         $original_query = $wp_query;
@@ -46,16 +45,18 @@
                         $args = array('posts_per_page' => 3, 'tag' => 'featured');
                         $wp_query = new WP_Query($args);
                         
-                        if (have_posts()) :
-                            while (have_posts()) : the_post();
-                                if(get_the_ID() != $curPost):
+                        if (have_posts()) : ?>
+                            <h4 class="featured-title"> Featured</h4>
+                            <hr class="featured-divider"/>
+                            <?php while (have_posts()) : the_post();
+                                // if(get_the_ID() != $curPost):
                                     echo '<li class="side-featured-post">'; ?>
                                     <h6> 
                                         <a  href="<?php the_permalink();?>" class="side-featured-post-list"> <?php the_title()?> </a>
                                     </h6>
                                         
                                     <?php echo '</li>';
-                                endif;
+                                // endif;
                             endwhile;
                         endif;
                         

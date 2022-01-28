@@ -930,7 +930,7 @@
 		var target = document.querySelector('.value');
 		target.innerHTML = newValue;
 		const window_height = window.innerHeight;
-		console.log(window_height);
+		
 
 		window.scrollTo({
 			top: newValue,

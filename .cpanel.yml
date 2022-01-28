@@ -3,11 +3,12 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/wedangs2/public_html/klique/wp-content/themes/kamiklique
     - /bin/cp -R css $DEPLOYPATH
-    # - /bin/cp -R includes $DEPLOYPATH
+    - /bin/cp -R includes $DEPLOYPATH
     # - /bin/cp index.html $DEPLOYPATH
     # - /bin/cp page-values.php $DEPLOYPATH
     # - /bin/cp page-about.php $DEPLOYPATH
-    - /bin/cp page-services.php $DEPLOYPATH
-    - /bin/cp archive-careers.php $DEPLOYPATH
+    # - /bin/cp page-services.php $DEPLOYPATH
+    # - /bin/cp archive-careers.php $DEPLOYPATH
     - /bin/cp category-blog.php $DEPLOYPATH
+    - /bin/cp single.php $DEPLOYPATH
         # - /bin/cp -R js $DEPLOYPATH
